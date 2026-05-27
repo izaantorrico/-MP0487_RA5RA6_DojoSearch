@@ -3,7 +3,8 @@ require_once 'db_connection.php';
 
 class EventController
 {
-    private $conn;
+
+private $conn;
 
     public function __construct($conn)
     {
